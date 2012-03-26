@@ -1,0 +1,17 @@
+@import "bootstrap.css";
+@import "bootstrap-responsive.css";
+
+/*.container {*/
+    /*max-width: 560px;*/
+/*}*/
+
+.container {
+    max-width: 560px;
+}
+
+footer {
+    margin-top: 18px;
+    color: #999;
+    border-top: 1px solid #ccc;
+    padding-top: 18px;
+}
