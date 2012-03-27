@@ -14,12 +14,16 @@ footer {
     padding-top: 18px;
 }
 
-h1, h2, h3 {
-    margin-bottom: 9px;
+h1 {
+    line-height: 45px;
 }
 
-h2, h3 {
-    margin-top: 18px;
+h2 {
+    line-height: 38px;
+}
+
+h3 {
+    line-height: 38px;
 }
 
 h1, h2, h3 {
