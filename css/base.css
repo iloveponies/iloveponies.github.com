@@ -14,8 +14,12 @@ footer {
     padding-top: 18px;
 }
 
+header {
+    margin-bottom: 2em;
+}
+
 h1 {
-    line-height: 45px;
+    line-height: 48px;
 }
 
 h2 {
