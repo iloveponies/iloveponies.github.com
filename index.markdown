@@ -2,7 +2,7 @@
 % 
 % March 26, 2012
 
-Pidämme kurssin funktionaalisesta ohjelmoinnista
+Kurssi funktionaalisesta ohjelmoinnista
 [Clojure][clojure]-ohjelmointikielellä.
 
 ## Kuvaus
@@ -24,9 +24,11 @@ Kurssin materiaali on englanniksi.
 
 ### Kurssin pitäjät
 
-[Juhana Laurinharju][juhana] TODO
+[Juhana Laurinharju][juhana] on tutkimusavustaja Helsingin yliopiston
+tietojenkäsittelytieteen laitoksella. Hän pitää parroista.
 
-[Ilmari Vacklin][ilmari] on 
+[Ilmari Vacklin][ilmari] on on ohjelmistosuunnittelija <a
+href="http://eficode.com">Eficodella</a>. Hän pitää kissoista.
 
 ## Description
 
