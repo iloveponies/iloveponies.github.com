@@ -7,19 +7,26 @@ Pidämme kurssin funktionaalisesta ohjelmoinnista
 
 ## Kuvaus
 
-Clojure on nuorehko [Lisp][lisp]-sukuinen ohjelmointikieli, joka tarjoaa
+Clojure on nuorehko [Lispin][lisp] sukuinen ohjelmointikieli, joka tarjoaa
 funktionaalisen lähestymistavan ohjelmointiin JVM-alustalla.
 
-Kurssilla oletetaan ohjelmoinnin perustaidot Javalla, mutta ei kuitenkaan
-funktionaalisen ohjelmoinnin taitoja.
+Kurssilla oletetaan ohjelmoinnin perustaidot Javalla. Funktionaalisen
+ohjelmoinnin ei tarvitse olla ennestään tuttua.
 
-Kurssi alkaa johdatuksella Clojuren käyttöön ja syntaksiin. Alkulämmittelyn
-jälkeen keskitymme erityisesti ohjelmakokonaisuuksien kirjoittamiseen.
+Kurssi alkaa johdatuksella Clojuren käyttöön ja syntaksiin. Kurssin
+tavoitteena on opettaa oikeiden ohjelmakokonaisuuksien kirjoittamista
+Clojurella.
 
 Kurssi on viikon mittainen. Opetus keskittyy harjoitusten ja ohjelmien
 tekemiseen.
 
 Kurssin materiaali on englanniksi.
+
+### Kurssin pitäjät
+
+[Juhana Laurinharju][juhana] TODO
+
+[Ilmari Vacklin][ilmari] on 
 
 ## Description
 
@@ -39,10 +46,21 @@ programs.
 The course is one week long with a focus on workshop sessions. The course
 material is in English.
 
-```{.clojure}
-(defn hello [who]
-  (str "Hello, " who "!"))
-```
+### Course Staff
+
+![photo of juhana] \ [Juhana Laurinharju][juhana] is a research assistant at
+the department of Computer Science at the University of Helsinki. He likes
+beards.
+
+![photo of ilmari] \ [Ilmari Vacklin][ilmari] is a software engineer at [Eficode][eficode]. He
+likes cats.
 
 [clojure]: http://clojure.org
 [lisp]: http://en.wikipedia.org/wiki/Lisp_%28programming_language%29
+
+[juhana]: http://cs.helsinki.fi/people/juhana.laurinharju
+[ilmari]: http://about.me/wolverian
+[eficode]: http://eficode.com
+
+[photo of juhana]: img/juhana.jpg
+[photo of ilmari]: img/ilmari.jpg

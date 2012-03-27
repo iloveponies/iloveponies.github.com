@@ -1,6 +1,5 @@
 \documentclass[]{article}
 \usepackage{amssymb,amsmath}
-\usepackage[english,finnish]{babel}
 \usepackage{ifxetex,ifluatex}
 \ifxetex
   \usepackage{fontspec,xltxtra,xunicode}
@@ -16,26 +15,16 @@
     \usepackage{eurosym}
   \fi
 \fi
-\usepackage{color}
-\usepackage{fancyvrb}
-\DefineShortVerb[commandchars=\\\{\}]{\|}
-\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
-% Add ',fontsize=\small' for more characters per line
-\newenvironment{Shaded}{}{}
-\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
-\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#1}}}
-\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
-\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
-\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
-\newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
-\newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
-\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{{#1}}}}
-\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#1}}}
-\newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
-\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#1}}}
-\newcommand{\RegionMarkerTok}[1]{{#1}}
-\newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
-\newcommand{\NormalTok}[1]{{#1}}
+\usepackage{graphicx}
+% We will generate all images so they have a width \maxwidth. This means
+% that they will get their normal width if they fit onto the page, but
+% are scaled down if they would overflow the margins.
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+\else\Gin@nat@width\fi}
+\makeatother
+\let\Oldincludegraphics\includegraphics
+\renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=\maxwidth]{#1}}
 \ifxetex
   \usepackage[setpagesize=false, % page size defined by xetex
               unicode=false, % unicode breaks when used with xetex
@@ -58,7 +47,6 @@
 
 \begin{document}
 \maketitle
-\thispagestyle{empty}
 
 Pidämme kurssin funktionaalisesta ohjelmoinnista
 \href{http://clojure.org}{Clojure}-ohjelmointikielellä.
@@ -66,23 +54,29 @@ Pidämme kurssin funktionaalisesta ohjelmoinnista
 \subsection{Kuvaus}
 
 Clojure on nuorehko
-\href{http://en.wikipedia.org/wiki/Lisp\_\%28programming\_language\%29}{Lisp}-sukuinen
-ohjelmointikieli, joka tarjoaa funktionaalisen lähestymistavan
+\href{http://en.wikipedia.org/wiki/Lisp\_\%28programming\_language\%29}{Lispin}
+sukuinen ohjelmointikieli, joka tarjoaa funktionaalisen lähestymistavan
 ohjelmointiin JVM-alustalla.
 
-Kurssilla oletetaan ohjelmoinnin perustaidot Javalla, mutta ei
-kuitenkaan funktionaalisen ohjelmoinnin taitoja.
+Kurssilla oletetaan ohjelmoinnin perustaidot Javalla. Funktionaalisen
+ohjelmoinnin ei tarvitse olla ennestään tuttua.
 
-Kurssi alkaa johdatuksella Clojuren käyttöön ja syntaksiin.
-Alkulämmittelyn jälkeen keskitymme erityisesti ohjelmakokonaisuuksien
-kirjoittamiseen.
+Kurssi alkaa johdatuksella Clojuren käyttöön ja syntaksiin. Kurssin
+tavoitteena on opettaa oikeiden ohjelmakokonaisuuksien kirjoittamista
+Clojurella.
 
 Kurssi on viikon mittainen. Opetus keskittyy harjoitusten ja ohjelmien
 tekemiseen.
 
 Kurssin materiaali on englanniksi.
 
-\otherlanguage{english}
+\subsubsection{Kurssin pitäjät}
+
+\href{http://cs.helsinki.fi/people/juhana.laurinharju}{Juhana
+Laurinharju} TODO
+
+\href{http://about.me/wolverian}{Ilmari Vacklin} on
+
 \subsection{Description}
 
 We're giving a course on functional programming with
@@ -104,11 +98,15 @@ writing whole programs.
 The course is one week long with a focus on workshop sessions. The
 course material is in English.
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{(}\KeywordTok{defn}\FunctionTok{ hello }\NormalTok{[who]}
-  \NormalTok{(}\KeywordTok{str} \StringTok{"Hello, "} \NormalTok{who }\StringTok{"!"}\NormalTok{))}
-\end{Highlighting}
-\end{Shaded}
+\subsubsection{Course Staff}
+
+\includegraphics{img/juhana.jpg}
+~\href{http://cs.helsinki.fi/people/juhana.laurinharju}{Juhana
+Laurinharju} is a research assistant at the department of Computer
+Science at the University of Helsinki. He likes beards.
+
+\includegraphics{img/ilmari.jpg}
+~\href{http://about.me/wolverian}{Ilmari Vacklin} is a software engineer
+at \href{http://eficode.com}{Eficode}. He likes cats.
 
 \end{document}
