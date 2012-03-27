@@ -1,10 +1,6 @@
 @import "bootstrap.css";
 @import "bootstrap-responsive.css";
 
-/*.container {*/
-    /*max-width: 560px;*/
-/*}*/
-
 .container {
     max-width: 560px;
 }
@@ -14,4 +10,19 @@ footer {
     color: #999;
     border-top: 1px solid #ccc;
     padding-top: 18px;
+}
+
+p::after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+img {
+    margin-right: 8px;
+    border: 1px solid rgba(1,1,1,0);
+}
+
+img[alt="photo of ilmari"] {
+    border: 1px solid #000;
 }
