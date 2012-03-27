@@ -25,10 +25,10 @@ Kurssin materiaali on englanniksi.
 ### Kurssin pitäjät
 
 [Juhana Laurinharju][juhana] on tutkimusavustaja Helsingin yliopiston
-tietojenkäsittelytieteen laitoksella. Hän pitää parroista.
+tietojenkäsittelytieteen laitoksella.
 
 [Ilmari Vacklin][ilmari] on on ohjelmistosuunnittelija <a
-href="http://eficode.com">Eficodella</a>. Hän pitää kissoista.
+href="http://eficode.com">Eficodella</a>.
 
 ## Description
 
