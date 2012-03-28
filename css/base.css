@@ -62,3 +62,6 @@ ul {
     margin-left: 0;
 }
 
+pre {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
