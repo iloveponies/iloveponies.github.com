@@ -8,14 +8,19 @@
 }
 
 footer {
-    margin-top: 18px;
+    margin-top: 3em;
     color: #999;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #ddd;
     padding-top: 18px;
 }
 
 header {
-    margin-bottom: 2em;
+    margin-top: 1em;
+    margin-bottom: 4em;
+}
+
+header p {
+    color: #777;
 }
 
 h1 {
@@ -27,6 +32,7 @@ h2 {
 }
 
 h3 {
+    margin-top: 1em;
     line-height: 38px;
 }
 
@@ -42,6 +48,8 @@ p::after {
 }
 
 img {
+    width: 60px;
+    height: 60px;
     margin-right: 8px;
     border: 1px solid rgba(1,1,1,0);
 }
@@ -49,3 +57,8 @@ img {
 img[alt="photo of ilmari"] {
     border: 1px solid #000;
 }
+
+ul {
+    margin-left: 0;
+}
+

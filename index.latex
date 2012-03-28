@@ -48,35 +48,6 @@
 \begin{document}
 \maketitle
 
-Pidämme kurssin funktionaalisesta ohjelmoinnista
-\href{http://clojure.org}{Clojure}-ohjelmointikielellä.
-
-\subsection{Kuvaus}
-
-Clojure on nuorehko
-\href{http://en.wikipedia.org/wiki/Lisp\_\%28programming\_language\%29}{Lispin}
-sukuinen ohjelmointikieli, joka tarjoaa funktionaalisen lähestymistavan
-ohjelmointiin JVM-alustalla.
-
-Kurssilla oletetaan ohjelmoinnin perustaidot Javalla. Funktionaalisen
-ohjelmoinnin ei tarvitse olla ennestään tuttua.
-
-Kurssi alkaa johdatuksella Clojuren käyttöön ja syntaksiin. Kurssin
-tavoitteena on opettaa oikeiden ohjelmakokonaisuuksien kirjoittamista
-Clojurella.
-
-Kurssi on viikon mittainen. Opetus keskittyy harjoitusten ja ohjelmien
-tekemiseen.
-
-Kurssin materiaali on englanniksi.
-
-\subsubsection{Kurssin pitäjät}
-
-\href{http://cs.helsinki.fi/people/juhana.laurinharju}{Juhana
-Laurinharju} TODO
-
-\href{http://about.me/wolverian}{Ilmari Vacklin} on
-
 \subsection{Description}
 
 We're giving a course on functional programming with

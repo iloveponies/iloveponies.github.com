@@ -1,63 +1,82 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta name="dcterms.date" content="2012-03-26">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Functional Programming Workshop</title>
-<!--[if lt IE 9]>
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-<link rel="stylesheet" href="css/base.css">
-</head>
-<body>
-<div class="container-fluid">
-<div class="row-fluid">
-<div class="span12">
-<header>
-<h1>Functional Programming Workshop</h1>
-<p>Kurssi funktionaalisesta ohjelmoinnista <a href="http://clojure.org">Clojure</a>-ohjelmointikielellä.</p>
-</header>
-<h2 id="kuvaus">Kuvaus</h2>
-<p>Clojure on nuorehko <a href="http://en.wikipedia.org/wiki/Lisp_%28programming_language%29">Lispin</a> sukuinen ohjelmointikieli, joka tarjoaa funktionaalisen lähestymistavan ohjelmointiin JVM-alustalla.</p>
-<p>Kurssilla oletetaan ohjelmoinnin perustaidot Javalla. Funktionaalisen ohjelmoinnin ei tarvitse olla ennestään tuttua.</p>
-<p>Kurssi alkaa johdatuksella Clojuren käyttöön ja syntaksiin. Kurssin tavoitteena on opettaa oikeiden ohjelmakokonaisuuksien kirjoittamista Clojurella.</p>
-<p>Kurssi on viikon mittainen. Opetus keskittyy harjoitusten ja ohjelmien tekemiseen.</p>
-<p>Kurssin materiaali on englanniksi.</p>
-<h3 id="kurssin-pitäjät">Kurssin pitäjät</h3>
+    <head>
+        <meta charset="utf-8">
+        <meta name="dcterms.date" content="2012-03-26">
+        <title>Functional Programming Workshop</title>
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="css/base.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span12">
+                    <header>
+                        <h1>Functional Programming Workshop</h1>
+                        <p>A course on functional programming with Clojure.</p>
+                    </header>
 
-<p><img width="60" height="60" src="img/juhana.jpg" alt="photo of juhana"
-    align="left">
-    <a href="http://cs.helsinki.fi/people/juhana.laurinharju">Juhana Laurinharju</a> 
-    on tutkimusavustaja Helsingin yliopiston tietojenkäsittelytieteen
-    laitoksella.</p>
+                    <p> <a href="http://clojure.org">Clojure</a> is a young
+                        <a href="http://en.wikipedia.org/wiki/Lisp_%28programming_language%29">Lispish</a>
+                        functional programming language on the
+                        <a href="http://en.wikipedia.org/wiki/Java_virtual_machine">JVM</a>
+                        platform. Because it runs on the JVM, all Clojure programs can
+                        use all the standard and third-party Java libraries
+                        freely.</p>
 
-<p><img width="60" height="60" src="img/ilmari.jpg" alt="photo of ilmari" align="left">
-    <a href="http://about.me/wolverian">Ilmari Vacklin</a> 
-    on ohjelmistosuunnittelija <a href="http://eficode.com">Eficodella</a>.</p>
+                    <p> Clojure is suitable for small and large programs.
+                        It offers tools for many tasks that are harder with
+                        other languages:
+                    </p>
 
-<h2 id="description" style="margin-top: 27px;">Description</h2>
-<p>We’re giving a course on functional programming with <a href="http://clojure.org">Clojure</a>.</p>
-<p>Clojure is a young <a href="http://en.wikipedia.org/wiki/Lisp_%28programming_language%29">Lispish</a> programming language. It is a functional programming language on the JVM platform. Because it runs on the JVM, all Clojure programs can use the standard and third-party Java libraries freely.</p>
-<p>You should have basic Java programming skills. No prior experience with functional programming is required.</p>
-<p>The course starts with an introduction to Clojure; its syntax and running
-    it. After the introduction, we will concentrate specifically on writing whole programs.</p>
-<p>The course is one week long with a focus on workshop sessions. The course material is in English.</p>
-<h3 id="course-staff">Course Staff</h3>
+                    <ul>
+                        <li>
+                            Immutable data structures, agents and software
+                            transactional memory ease development of robust
+                            concurrent systems.
+                        </li>
 
-<p><img width="60" height="60" src="img/juhana.jpg" alt="photo of juhana"
-    align="left">
-<a href="http://cs.helsinki.fi/people/juhana.laurinharju">Juhana Laurinharju</a> is a research assistant at the department of Computer Science at the University of Helsinki. He likes beards.</p>
+                        <li>
+                            Macros allow building more expressive domain
+                            specific languages.
+                        </li>
 
-<p><img width="60" height="60" src="img/ilmari.jpg" alt="photo of ilmari" align="left">
-<a href="http://about.me/wolverian">Ilmari Vacklin</a> is a software engineer
-at <a href="http://eficode.com/en">Eficode</a>. He likes cats.</p>
+                        <li>
+                            Typing hints and localized mutability let you gain
+                            performance where it is needed.
+                        </li>
+                    </ul>
 
-<footer>
-    <p>&copy; <a href="http://github.com/iloveponies">iloveponies</a></p>
-</footer>
-</div>
-</div>
-</div>
-</body>
+                    <p> The course is one week long with a focus on workshop
+                        sessions. The course material is in English. We start
+                        with an introduction to Clojure; its syntax and running
+                        it. After the introduction, we’ll concentrate
+                        specifically on writing whole programs.
+                    </p>
+
+                    <p> You should have basic Java programming skills. No prior
+                        experience with functional programming is required.</p>
+
+                    <h3 id="course-staff">Course Staff</h3>
+
+                    <p> <img align="left" src="img/juhana.jpg" alt="photo of juhana">
+                        <a href="http://cs.helsinki.fi/people/laurinha">Juhana
+                            Laurinharju</a>
+                        is a research assistant at the department of Computer
+                        Science at the University of Helsinki.</p>
+
+                    <p> <img align="left" src="img/ilmari.jpg" alt="photo of ilmari">
+                        <a href="http://about.me/wolverian">Ilmari Vacklin</a>
+                        is a software engineer at
+                        <a href="http://eficode.com">Eficode</a>.</p>
+
+                    <footer>
+                        <p>&copy; <a href="http://github.com/iloveponies">iloveponies</a></p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>

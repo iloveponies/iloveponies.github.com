@@ -1,34 +1,6 @@
 % Functional Programming Workshop
-% 
+%
 % March 26, 2012
-
-Kurssi funktionaalisesta ohjelmoinnista
-[Clojure][clojure]-ohjelmointikielellä.
-
-## Kuvaus
-
-Clojure on nuorehko [Lispin][lisp] sukuinen ohjelmointikieli, joka tarjoaa
-funktionaalisen lähestymistavan ohjelmointiin JVM-alustalla.
-
-Kurssilla oletetaan ohjelmoinnin perustaidot Javalla. Funktionaalisen
-ohjelmoinnin ei tarvitse olla ennestään tuttua.
-
-Kurssi alkaa johdatuksella Clojuren käyttöön ja syntaksiin. Kurssin
-tavoitteena on opettaa oikeiden ohjelmakokonaisuuksien kirjoittamista
-Clojurella.
-
-Kurssi on viikon mittainen. Opetus keskittyy harjoitusten ja ohjelmien
-tekemiseen.
-
-Kurssin materiaali on englanniksi.
-
-### Kurssin pitäjät
-
-[Juhana Laurinharju][juhana] on tutkimusavustaja Helsingin yliopiston
-tietojenkäsittelytieteen laitoksella.
-
-[Ilmari Vacklin][ilmari] on on ohjelmistosuunnittelija <a
-href="http://eficode.com">Eficodella</a>.
 
 ## Description
 

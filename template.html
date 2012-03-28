@@ -34,24 +34,17 @@ $header-includes$
 $endfor$
 </head>
 <body>
-<div class="navbar">
-<div class="navbar-inner">
-<div class="container">
-<h1><a class="brand" href="#">$title$</a></h1>
-</div>
-</div>
-</div>
 <div class="container">
 <div class="row-fluid">
 <div class="span12">
+$if(title)$
+<header>
+<h1>$title$</h1>
+</header>
+$endif$
 $for(include-before)$
 $include-before$
 $endfor$
-$if(title)$
-<header>
-$for(author)$<p class="author">$author$</p>$endfor$
-</header>
-$endif$
 $if(toc)$
 <nav id="$idprefix$TOC">
 $toc$
@@ -62,7 +55,7 @@ $for(include-after)$
 $include-after$
 $endfor$
 <footer>
-    <p>&copy; <a href="mailto:ilmari.vacklin@gmail.com">iloveponies</a></p>
+<p>&copy; <a href="http://github.com/iloveponies">iloveponies</a></p>
 </footer>
 </div>
 </div>
