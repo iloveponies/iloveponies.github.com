@@ -54,9 +54,11 @@ img {
     border: 1px solid rgba(1,1,1,0);
 }
 
-img[alt="photo of ilmari"] {
+img[alt="photo of ilmari"], img[alt="photo of juhana"] {
     border: 1px solid #000;
 }
+
+
 
 ul {
     margin-left: 0;
