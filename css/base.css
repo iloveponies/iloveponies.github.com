@@ -54,7 +54,7 @@ img {
     border: 1px solid rgba(1,1,1,0);
 }
 
-img[alt="photo of ilmari"], img[alt="photo of juhana"] {
+img.avatar {
     border: 1px solid #000;
 }
 
